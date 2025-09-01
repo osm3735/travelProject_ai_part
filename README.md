@@ -47,12 +47,12 @@
     pgvector/pgvector:pg17
     ```
 1. fastAPI 구조: 해당 프로젝트 중 ai part는 fastapi 구조를 따른다.   
-![fastapu](./ai_report_img/fastapi.png)
-- main.py : uvicorn에 의해 실행될 파일.
-- CRUD : SELECT, INSERT 등 SQL 처리.
-- DB : DB 접속과 관련.
-- Domain : 외부 데이터 이용을 위한 API 처리.
-- LangChain : Prompt, Model, Parser 로 이어지는 랭체인 틀.
+    ![fastapu](./ai_report_img/fastapi.png)
+    - main.py : uvicorn에 의해 실행될 파일.
+    - CRUD : SELECT, INSERT 등 SQL 처리.
+    - DB : DB 접속과 관련.
+    - Domain : 외부 데이터 이용을 위한 API 처리.
+    - LangChain : Prompt, Model, Parser 로 이어지는 랭체인 틀.
 
 ## 1. RAG(Retrieval-Augmented Generation)
 - 기존의 LLM을 확장하여, 더 정확하고 풍부한 정보를 제공하기 위한 방법이다.
