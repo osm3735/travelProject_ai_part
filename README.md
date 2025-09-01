@@ -59,8 +59,8 @@
 ![ai_data_flow](./ai_report_img/ai_data_flow.png)
 1. 사전 데이터 학습: '법정동 코드'와 'tourapi serveice key'에 해당되는 문자열을
 2. 질문 전처리 : 질문이 주어지면서 textsplit 를 통해 분해되며 '시/도/군/구'로 끝나는 단어는 우선적으로 추출해낸다.   
-3. 사전에 학습된 데이터와 유사도 분석을 통해 Param을 추출하고, tourapi 에 get 요청을 통해 데이터를 받아온다.
-4. 받아온 데이터와 질문을 input 하여, langchain을 통해 json 형태의 답변을 생성한다.
+3. Param 생성 : 사전에 학습된 데이터와 유사도 분석을 통해 Param을 추출하고, tourapi 에 get 요청을 통해 데이터를 받아온다.
+4. 답변 생성 : 받아온 데이터와 질문을 input 하여, langchain을 통해 json 형태의 답변을 생성한다.
 
 ## 3. 사전 데이터 준비 : Dattaset
 - 법정동 코드
