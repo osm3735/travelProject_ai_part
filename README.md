@@ -46,7 +46,7 @@
     -p 5432:5432 ^
     pgvector/pgvector:pg17
     ```
-1. fastAPI 구조: 해당 프로젝트 중 ai part는 fastapi 구조를 따른다.
+1. fastAPI 구조: 해당 프로젝트 중 ai part는 fastapi 구조를 따른다.   
 ![fastapu](./ai_report_img/fastapi.png)
 - main.py : uvicorn에 의해 실행될 파일.
 - CRUD : SELECT, INSERT 등 SQL 처리.
